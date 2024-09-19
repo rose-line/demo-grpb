@@ -17,7 +17,7 @@ public class App {
     int nbHeuresTravaillees = clavier.nextInt();
 
     // 3. Multiplier
-    int resultat = salaireHoraire * nbHeuresTravaillees;
+    int resultat = salaireHoraire * nbHeuresTravaillees + 100;
 
     // 4. Afficher
     System.out.println("Le salaire brut est : " + resultat);
